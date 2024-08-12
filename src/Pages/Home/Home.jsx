@@ -5,7 +5,7 @@ import { MdAdd } from "react-icons/md";
 import AddEditNotes from "./AddEditNotes";
 import Modal from "react-modal";
 import { useNavigate } from "react-router-dom";
-import axiosInstances from "../../Utils/axiosinstance";
+import axiosInstances from "../../Utils/axiosInstance";
 import Toast from "../../Components/ToastMessage/Toast";
 import EmptyCard from "../../Components/EmptyCard/EmptyCard";
 import imgSrc from "../../assets/bg.png";

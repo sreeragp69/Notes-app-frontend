@@ -3,7 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import PasswordInput from "../../Components/Input/PasswordInput";
 import { Link, useNavigate } from "react-router-dom";
 import { validateEmail } from "../../Utils/Helper";
-import axiosInstances from "../../Utils/axiosinstance";
+import axiosInstances from "../../Utils/axiosInstance";
 
 const SignUp = () => {
   const [name, setName] = useState("");
